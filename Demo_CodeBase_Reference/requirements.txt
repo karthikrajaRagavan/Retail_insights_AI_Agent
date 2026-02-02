@@ -1,0 +1,27 @@
+# Retail Insights Agent - Dependencies
+
+# Google ADK (Multi-Agent Framework)
+google-adk==1.15.1
+
+# LLM Providers
+openai==1.109.1
+
+# SQL Generation (PandasAI + DuckDB)
+pandasai==2.1
+duckdb==0.10.3
+
+# NVIDIA NeMo Guardrails
+nemoguardrails==0.19.0
+langchain==1.1.2
+langchain-core==1.1.1
+
+# Data Processing (versions compatible with pandasai 2.1)
+numpy<2.0
+# pandas - installed automatically by pandasai
+
+# Vector Store (Pinecone)
+pinecone>=5.0.0
+
+# Utilities
+python-dotenv==1.1.1
+aiohttp==3.13.2

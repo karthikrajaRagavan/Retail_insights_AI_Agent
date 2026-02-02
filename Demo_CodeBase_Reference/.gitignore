@@ -1,0 +1,31 @@
+# Environment & Credentials (DO NOT COMMIT)
+.env
+service-account.json
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Node (presentation folder)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
